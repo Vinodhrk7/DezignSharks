@@ -1,0 +1,146 @@
+.seo-section {
+  display: flex;
+  padding: 40px 60px;
+  background-color: #f9f8f5;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.seo-left {
+  flex: 1 1 20%;
+  display: grid;
+}
+.seo-content {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 1px;
+}
+
+.seo-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+
+ .seo-intro {
+  font-weight: 700;
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 10px;
+  margin-left: 33%;
+}
+
+.seo-description {
+  color: #444;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  max-width: 600px;             
+  width: 100%;                  
+  margin-left: auto;
+  margin-right: auto;
+}
+.progress-bars {
+  margin: 50px 0;
+}
+
+.progress-item {
+  margin-bottom: 16px;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.about-btn {
+  background-color: #000 !important;
+  color: #fff !important;
+  text-transform: none !important;
+  margin-top: 20px;
+  padding: 8px 16px;
+  font-weight: 600;
+    width: 40%;
+  height: 66px;
+}
+
+.seo-right {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.seo-imgs {
+  /* width: 100%; */
+    max-width: 350px;
+}
+.seo-image-bottom{
+        margin-left: -33%;
+    margin-top: 31%;
+}
+/* Rotating text animation */
+ .badge-container {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: #f9f8f3;
+  margin-bottom: 20%;
+}
+
+/* Half Circles */
+.half-circle {
+  width: 76px;
+  height: 160px;
+  border: 2px solid gray;
+  border-radius: 0 100px 100px 0;
+}
+
+.half-circle.left {
+  transform: rotate(180deg);
+}
+
+.half-circle.right {
+  transform: rotate(0deg);
+  margin-left: -30px;
+}
+
+/* Full circle with rotating text */
+.full-circle {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #f5d93a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rotating-text {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  animation: rotateText 10s linear infinite;
+}
+
+@keyframes rotateText {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.play-button {
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  z-index: 2;
+}
+

@@ -1,0 +1,135 @@
+.seo-solutions {
+  padding: 10px 20px;
+}
+
+.seo-solutions__content {
+  flex: 1;
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.seo-solutions__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.seo-solutions__image {
+  flex: 1;
+  position: relative;
+}
+
+.seo-solutions__image-content {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .seo-solutions {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+
+  .seo-solutions__title {
+    font-size: 2rem;
+  }
+
+  .seo-solutions__graphic {
+    gap: 20px;
+  }
+
+  .seo-solutions__number {
+    font-size: 4rem;
+  }
+
+  .seo-solutions__letter-row span {
+    font-size: 1.5rem;
+  }
+}
+/* MissionVision.css */
+.mission-vision {
+  padding: 80px 20px;
+  /* background-color: #f9fafb; */
+}
+
+.mission-vision__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.mission-vision__card {
+  background: lightgray;
+  border-radius: 1px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-vision__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.mission-vision__card-header {
+  margin-bottom: 25px;
+}
+
+.mission-vision__card-subtitle {
+  font-size: 1rem;
+  color: #000;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-right: 76%;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+  text-align: justify;
+}
+
+.mission-vision__card-title {
+  font-size: 1.8rem;
+  color: #222;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.mission-vision__card-content p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 18px;
+  text-align: justify;
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .mission-vision {
+    padding: 50px 20px;
+  }
+
+  .mission-vision__container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .mission-vision__card {
+    padding: 30px;
+  }
+
+  .mission-vision__card-title {
+    font-size: 1.5rem;
+  }
+
+  .mission-vision__card-content p {
+    font-size: 1rem;
+  }
+}
